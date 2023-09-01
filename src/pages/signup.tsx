@@ -2,13 +2,10 @@ import { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
 
-// import { cn } from "../../lib/utils"
-// import { buttonVariants } from "@/registry/new-york/ui/button"
-// import { SignUpForm } from "@/app/examples/authentication/components/user-auth-form"
-// import { SignUpForm } from "@/components/forms/signup"
-import { SignUpForm } from "@/components/forms/signup"
-import { buttonVariants } from "@/components/ui/button"
-import { cn } from "../../lib/utils"
+
+import { SignUpForm } from "../components/forms/signup"
+import { buttonVariants } from "../components/ui/button"
+import { cn } from "../lib/utils"
 
 export default function AuthenticationPage() {
   return (
