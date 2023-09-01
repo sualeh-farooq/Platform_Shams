@@ -1,4 +1,3 @@
-// import "@/styles/globals.css";
 import '../styles/globals.css'
 import { useRouter } from "next/router";
 import AppLayout from "../layouts/appLayout";
