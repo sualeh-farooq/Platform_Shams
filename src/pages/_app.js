@@ -1,6 +1,7 @@
-import "@/styles/globals.css";
+// import "@/styles/globals.css";
+import '../styles/globals.css'
 import { useRouter } from "next/router";
-import AppLayout from "@/layouts/appLayout";
+import AppLayout from "../layouts/appLayout";
 
 export default function App({ Component, pageProps }) {
   const router = useRouter();

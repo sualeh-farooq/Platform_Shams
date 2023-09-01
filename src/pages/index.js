@@ -1,20 +1,13 @@
-import { Metadata } from "next"
-import Image from "next/image"
-import Link from "next/link"
-
-// import { cn } from "@/lib/utils"
-// import { buttonVariants } from "@/registry/new-york/ui/button"
-// import { UserAuthForm } from "@/app/examples/authentication/components/user-auth-form"
-// import { UserAuthForm } from "@/components/forms/signup"
-// import { LoginForm } from "@/components/forms/signup"
-import { LoginForm } from "@/components/forms/login"
-import { buttonVariants } from "@/components/ui/button"
-import { cn } from "@/lib/utils"
+import Image from "next/image";
+import Link from "next/link";
+import { LoginForm } from "../components/forms/login";
+import { buttonVariants } from "../components/ui/button";
+import  {cn} from '../lib/utils'
+import React from "react";
 
 export default function AuthenticationPage() {
   return (
     <>
-    
       <div className="container relative hidden h-[800px] flex-col items-center justify-center md:grid lg:max-w-none lg:grid-cols-2 lg:px-0">
         <Link
           href="/signup"
@@ -61,14 +54,12 @@ export default function AuthenticationPage() {
               </h1>
               <p className="text-sm text-muted-foreground">
               Please sign-in to your account and start the adventure
-
               </p>
             </div>
             <LoginForm />
-            
           </div>
         </div>
       </div>
     </>
-  )
+  );
 }
